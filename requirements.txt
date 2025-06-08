@@ -14,3 +14,4 @@ numpy==1.26.4
 supabase==2.3.4
 psycopg2-binary==2.9.9
 asyncpg==0.29.0 
+requests==2.31.0
