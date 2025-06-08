@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     
     # Configuración de autenticación
     API_AUTH_URL: str
+    SECRET_KEY: str = "tu_clave_secreta_aqui_cambiala_en_produccion"
     
     class Config:
         case_sensitive = True
